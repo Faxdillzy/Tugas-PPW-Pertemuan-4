@@ -1,0 +1,140 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #ffffff; /* semua teks putih biar kelihatan */
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #c084fc;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgba(192, 132, 252, 0.2);
+    transition: 0.3s;
+}
+
+/* HOVER NAV */
+nav a:hover {
+    background: #c084fc;
+    color: #000;
+}
+
+/* MAIN */
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* CARD LIST */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* CARD */
+li {
+    background: rgba(0,0,0,0.6);
+    border: 1px solid #c084fc;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 260px;
+    transition: 0.4s;
+    box-shadow: 0 0 15px rgba(192,132,252,0.5);
+}
+
+/* HOVER CARD */
+li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #c084fc;
+}
+
+/* IMAGE */
+li img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+/* TEXT */
+li h3 {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+/* LINK */
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* SECTION */
+section {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    border: 1px solid #c084fc;
+}
+
+/* DETAIL IMAGE */
+section img {
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* PARAGRAF */
+p {
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #e5e5e5; /* biar jelas terlihat */
+}
+
+/* LINK KONTAK */
+.kontak a {
+    display: block;
+    margin: 10px 0;
+    color: #c084fc;
+    transition: 0.3s;
+}
+
+.kontak a:hover {
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+}
